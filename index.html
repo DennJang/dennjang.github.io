@@ -195,13 +195,6 @@
               </span>
 
           
-            <span id="/2022/06/14/welcome/" class="post-meta-item leancloud_visitors" data-flag-title="欢迎" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   
 
@@ -272,13 +265,6 @@
             </span>
 
           
-            <span id="/2022/06/15/testcomment/" class="post-meta-item leancloud_visitors" data-flag-title="评论功能测试" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -370,13 +356,6 @@
             </span>
 
           
-            <span id="/2022/06/15/high-rise/" class="post-meta-item leancloud_visitors" data-flag-title="高层建筑结构设计" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   
 
@@ -453,13 +432,6 @@
               </span>
 
           
-            <span id="/2022/06/14/pic/" class="post-meta-item leancloud_visitors" data-flag-title="上传图片测试" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   
 
@@ -539,13 +511,6 @@
             </span>
 
           
-            <span id="/2022/06/14/log/" class="post-meta-item leancloud_visitors" data-flag-title="网站运维日志" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   
 
@@ -779,14 +744,14 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     new Valine({
       el         : '#valine-comments',
       verify     : false,
-      notify     : false,
+      notify     : true,
       appId      : 'ciWqnVfzdgwMfVSleeaKCg0r-MdYXbMMI',
       appKey     : 'BQ2PpcQsIjv3DkeFfm6kiiCF',
-      placeholder: "随便讲两句咯~（若留下邮箱，您受到新回复会有邮件通知！）",
+      placeholder: "随便讲两句咯~（留下邮箱的话收到新回复会有邮件通知）",
       avatar     : 'mm',
       meta       : guest,
       pageSize   : '10' || 10,
-      visitor    : true,
+      visitor    : false,
       lang       : 'zh-cn' || 'zh-cn',
       path       : location.pathname,
       recordIP   : false,
