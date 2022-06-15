@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft JhengHei", sans-serif;
+  font-family: "DFKai-SB";
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b5df37;
+  background: #04c86e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
