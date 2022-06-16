@@ -6,7 +6,7 @@
   <link href="http://dennjang.github.io/atom.xml" rel="self"/>
   
   <link href="http://dennjang.github.io/"/>
-  <updated>2022-06-15T11:14:26.749Z</updated>
+  <updated>2022-06-16T10:15:39.656Z</updated>
   <id>http://dennjang.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>胡文列传</title>
+    <link href="http://dennjang.github.io/2022/06/16/handsomehu/"/>
+    <id>http://dennjang.github.io/2022/06/16/handsomehu/</id>
+    <published>2022-06-16T10:07:10.583Z</published>
+    <updated>2022-06-16T10:15:39.656Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>伟大的胡文帝国诞生于云南大理的一个温柔神秘而又单纯的微笑，其散发的无尽魅力震惊了世界，并开始逐渐为人所知……</p><p><img src="/2022/06/16/handsomehu/1.jpg" alt="the smile"></p><h1 id="章节一-无敌帅胡"><a href="#章节一-无敌帅胡" class="headerlink" title="章节一  无敌帅胡"></a>章节一  无敌帅胡</h1><p>我灵感枯萎了……只能献上一张云南悍匪相：</p><p><img src="/2022/06/16/handsomehu/2.jpg" alt="legend"></p>]]></content>
+    
+    
+    <summary type="html">本文系胡文专题的开山之作，至此，胡文专题正式开始连载！</summary>
+    
+    
+    
+    <category term="胡文专题" scheme="http://dennjang.github.io/categories/%E8%83%A1%E6%96%87%E4%B8%93%E9%A2%98/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>评论功能测试</title>
