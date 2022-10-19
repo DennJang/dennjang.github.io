@@ -1,73 +1,222 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>潮语拼音输入法概述 - 然哥的精神故乡</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="个人博客，记载私人拙见,铺垫1. 汉语拼音输入法之弊若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言,"> 
-    <meta name="author" content="然哥"> 
-    <link rel="alternative" href="atom.xml" title="然哥的精神故乡" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-    
-    
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="潮语拼音输入法概述 - 然哥的精神故乡"/>
-    <meta name="twitter:description" content="个人博客，记载私人拙见,铺垫1. 汉语拼音输入法之弊若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言,"/>
-    
-    
-    
-    
-    <meta property="og:site_name" content="然哥的精神故乡"/>
-    <meta property="og:type" content="object"/>
-    <meta property="og:title" content="潮语拼音输入法概述 - 然哥的精神故乡"/>
-    <meta property="og:description" content="个人博客，记载私人拙见,铺垫1. 汉语拼音输入法之弊若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言,"/>
-    
-<link rel="stylesheet" href="/css/diaspora.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-    <script>window.searchDbPath = "/search.xml";</script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<meta name="generator" content="Hexo 6.2.0"></head>
+<link rel="stylesheet" href="/css/main.css">
 
-<body class="loading">
-    <span id="config-title" style="display:none">然哥的精神故乡</span>
-    <div id="loader"></div>
-    <div id="single">
-    <div id="top" style="display: block;">
-    <div class="bar" style="width: 0;"></div>
-    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://dennjang.github.io"></a>
-    <div title="播放/暂停" class="iconfont icon-play"></div>
-    <h3 class="subtitle">潮语拼音输入法概述</h3>
-    <div class="social">
-        <div>
-            <div class="share">
-                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
-            </div>
-            <div id="qr"></div>
-        </div>
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"dennjang.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":"ture","color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="介绍基于潮语拼音之输入法程序。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="潮语拼音输入法概述">
+<meta property="og:url" content="http://dennjang.github.io/2022/06/29/teochew-input-method/index.html">
+<meta property="og:site_name" content="然哥的精神故乡">
+<meta property="og:description" content="介绍基于潮语拼音之输入法程序。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-06-29T06:31:22.790Z">
+<meta property="article:modified_time" content="2022-10-15T11:29:17.244Z">
+<meta property="article:author" content="然哥">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://dennjang.github.io/2022/06/29/teochew-input-method/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>潮语拼音输入法概述 | 然哥的精神故乡</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="然哥的精神故乡" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
-    <div class="scrollbar"></div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">然哥的精神故乡</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">The Spiritual Hometown of Brother Jang</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
 </div>
 
-    <div class="section">
-        <div class="article">
-    <div class='main'>
-        <h1 class="title">潮语拼音输入法概述</h1>
-        <div class="stuff">
-            <span>六月 29, 2022</span>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
             
 
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://dennjang.github.io/2022/06/29/teochew-input-method/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="然哥">
+      <meta itemprop="description" content="个人博客，记载私人拙见">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="然哥的精神故乡">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          潮语拼音输入法概述
+        </h1>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-06-29 14:31:22" itemprop="dateCreated datePublished" datetime="2022-06-29T14:31:22+08:00">2022-06-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%84%B6%E5%93%A5%E7%A7%98%E7%B1%8D/" itemprop="url" rel="index"><span itemprop="name">然哥秘籍</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%84%B6%E5%93%A5%E7%A7%98%E7%B1%8D/%E6%BD%AE%E6%B1%95%E6%96%87%E5%8C%96/" itemprop="url" rel="index"><span itemprop="name">潮汕文化</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  
+            <div class="post-description">介绍基于潮语拼音之输入法程序。</div>
+
         </div>
-        <div class="content markdown">
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="铺垫"><a href="#铺垫" class="headerlink" title="铺垫"></a>铺垫</h1><h2 id="1-汉语拼音输入法之弊"><a href="#1-汉语拼音输入法之弊" class="headerlink" title="1. 汉语拼音输入法之弊"></a>1. 汉语拼音输入法之弊</h2><p>若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言，以拼音输入法输入汉字时脑海中的语言思维显然取决于所使用的拼音，对汉语拼音输入法而言，打字时脑中必然呈现的是普通话的语句，遣词造句自然遵循普通话的语法逻辑，长此以往则会丧失母语方言的思维定势，在高度数字化的现代更是如此，由此看来汉语拼音输入法的弊端显露无疑。</p>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="铺垫"><a href="#铺垫" class="headerlink" title="铺垫"></a>铺垫</h1><h2 id="1-汉语拼音输入法之弊"><a href="#1-汉语拼音输入法之弊" class="headerlink" title="1. 汉语拼音输入法之弊"></a>1. 汉语拼音输入法之弊</h2><p>若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言，以拼音输入法输入汉字时脑海中的语言思维显然取决于所使用的拼音，对汉语拼音输入法而言，打字时脑中必然呈现的是普通话的语句，遣词造句自然遵循普通话的语法逻辑，长此以往则会丧失母语方言的思维定势，在高度数字化的现代更是如此，由此看来汉语拼音输入法的弊端显露无疑。</p>
 <h2 id="2-汉字输入法之选择"><a href="#2-汉字输入法之选择" class="headerlink" title="2. 汉字输入法之选择"></a>2. 汉字输入法之选择</h2><p>对于五笔亦或仓颉输入法，打字的基本原则是汉字本身，譬如五笔是依据汉字笔画，而仓颉则是按照汉字构成来输入汉字。汉语方言的文字除了极少数在上古时代遗留下来的地方古音查无本字（如潮汕话中便含一些古越人的语言），基本都有其对应的汉字来表示，因此对于以汉语方言为母语者，上述二种输入法是推荐使用的，因为这样能避免汉语拼音的思维定势影响母语思考，从而在长期的汉字输入中巩固自身母语思维，对本土文化作一种传承。</p>
 <p>但是，学习五笔或仓颉输入法所付出的时间成本其实难以估量。在中国的教育体制下，基本上所有接受义务教育的人都能掌握现代汉语拼音，因此对于汉语方言使用者而言，如果有一套拼音方案是与现代汉语拼音相近的，那么学习母语的拼音所付出的时间便可以大大减少。对潮汕话而言，广东省教育厅在1960年9月公布《潮州话拼音方案》，基本上能够将潮汕地区日常交流用语以拼音的形式表现出来，而且仅在汉语拼音的基础上增加 了三个声母 ng（黄 ng5）、gh（吴 ghou5）、bh（无 bho5），以及一个韵母如 ê（亿 êg8），再结合潮汕话自身的入声特征（-g）及八个声调，上手难度对潮汕话母语者十分友好，只需要稍加练习便能熟练掌握。<a target="_blank" rel="noopener" href="http://www.czyzd.com/data/chaopin" title="传承潮汕文化"><strong>点此学习潮州话拼音方案</strong></a>。</p>
 <h2 id="3-潮语拼音之应用"><a href="#3-潮语拼音之应用" class="headerlink" title="3. 潮语拼音之应用"></a>3. 潮语拼音之应用</h2><p>掌握了潮汕话拼音之后，以潮汕话书写汉字时若遇到不会写的字，则可通过潮语拼音查询对应本字。常用的查询本字的在线网站有<a target="_blank" rel="noopener" href="http://m.czyzd.com/" title="传承潮汕文化"><strong>在线潮州音字典</strong></a>、以及<a target="_blank" rel="noopener" href="https://www.mogher.com/" title="勿忘母语之根"><strong>潮州母语网</strong></a>，但所查本字未必准确。对于潮汕话正字考据的学界研究及争议，以后我会专门写一篇文章来简要介绍。回归正题，在论述了使用潮语拼音对以潮汕话为母语的汉语方言使用者之优势后，是否有一款包含潮语拼音的汉字输入法便成为最关键的问题。答案显而易见，由此引出本文的重点内容——</p>
@@ -93,123 +242,178 @@
 <p>本文结束。点击返回 <a href="https://dennjang.github.io/categories/%E7%84%B6%E5%93%A5%E7%A7%98%E7%B1%8D/" title="学而不思则罔"><strong>然哥秘籍</strong></a>，或 <a href="https://dennjang.github.io/categories/%E7%84%B6%E5%93%A5%E7%A7%98%E7%B1%8D/%E6%BD%AE%E6%B1%95%E6%96%87%E5%8C%96/" title="传承潮汕文化"><strong>潮汕文化</strong></a>，或 <a href="https://dennjang.github.io/2022/06/14/welcome/" title="欢迎来到然哥的精神故乡"><strong>欢迎页</strong></a>，或<a href="https://dennjang.github.io/" title="然哥的精神故乡"><strong>首页</strong></a>。</p>
 </blockquote>
 
-            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-                <source type="audio/mpeg" src="">
-            </audio>
-            
-                <ul id="audio-list" style="display:none">
-                    
-                        
-                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
-                        
-                    
-                        
-                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
-                        
-                    
-                </ul>
-            
-        </div>
-        
-        
-    <div id="gitalk-container" class="comment link"
-		data-enable="false"
-        data-ae="false"
-        data-ci=""
-        data-cs=""
-        data-r=""
-        data-o=""
-        data-a=""
-        data-d="false"
-    >查看评论</div>
-
-
     </div>
+
     
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>然哥
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://dennjang.github.io/2022/06/29/teochew-input-method/" title="潮语拼音输入法概述">http://dennjang.github.io/2022/06/29/teochew-input-method/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
 
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/06/18/strangerun/" rel="prev" title="跑步奇遇">
+      <i class="fa fa-chevron-left"></i> 跑步奇遇
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-</div>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
     });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
+  }
 </script>
-<script src="//cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-</body>
 
-
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
-
-
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-
-
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
         </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%93%BA%E5%9E%AB"><span class="nav-text">铺垫</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95%E4%B9%8B%E5%BC%8A"><span class="nav-text">1. 汉语拼音输入法之弊</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%B1%89%E5%AD%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B9%8B%E9%80%89%E6%8B%A9"><span class="nav-text">2. 汉字输入法之选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%BD%AE%E8%AF%AD%E6%8B%BC%E9%9F%B3%E4%B9%8B%E5%BA%94%E7%94%A8"><span class="nav-text">3. 潮语拼音之应用</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%BD%AE%E6%B1%95%E8%AF%9D%E8%BE%93%E5%85%A5%E6%B3%95"><span class="nav-text">潮汕话输入法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%83%8C%E6%99%AF"><span class="nav-text">1. 背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8"><span class="nav-text">2. 安装与使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%96%B9%E6%A1%88"><span class="nav-text">3. 个性化方案</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-text">结语</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">然哥</p>
+  <div class="site-description" itemprop="description">个人博客，记载私人拙见</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
     </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2022-06 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">然哥</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
 </div>
 
 
@@ -217,4 +421,84 @@
 
 
 
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'ciWqnVfzdgwMfVSleeaKCg0r-MdYXbMMI',
+      appKey     : 'BQ2PpcQsIjv3DkeFfm6kiiCF',
+      placeholder: "随便讲两句咯~",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : 'https://ciwqnvfz.api.lncldglobal.com'
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
 </html>
