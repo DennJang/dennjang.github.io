@@ -21,17 +21,19 @@
     var CONFIG = {"hostname":"dennjang.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":"ture","color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="介绍基于潮语拼音之输入法程序。">
+  <meta name="description" content="本文介绍基于潮语拼音之输入法程序。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="潮语拼音输入法概述">
 <meta property="og:url" content="http://dennjang.github.io/2022/06/29/teochew-input-method/index.html">
 <meta property="og:site_name" content="然哥的精神故乡">
-<meta property="og:description" content="介绍基于潮语拼音之输入法程序。">
+<meta property="og:description" content="本文介绍基于潮语拼音之输入法程序。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/10/19/38Pm24bAeJoxZ1f.jpg">
 <meta property="article:published_time" content="2022-06-29T06:31:22.790Z">
-<meta property="article:modified_time" content="2022-10-15T11:29:17.244Z">
+<meta property="article:modified_time" content="2022-10-19T13:56:17.141Z">
 <meta property="article:author" content="然哥">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/10/19/38Pm24bAeJoxZ1f.jpg">
 
 <link rel="canonical" href="http://dennjang.github.io/2022/06/29/teochew-input-method/">
 
@@ -205,7 +207,6 @@
             </span>
   
   
-            <div class="post-description">介绍基于潮语拼音之输入法程序。</div>
 
         </div>
       </header>
@@ -216,7 +217,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="铺垫"><a href="#铺垫" class="headerlink" title="铺垫"></a>铺垫</h1><h2 id="1-汉语拼音输入法之弊"><a href="#1-汉语拼音输入法之弊" class="headerlink" title="1. 汉语拼音输入法之弊"></a>1. 汉语拼音输入法之弊</h2><p>若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言，以拼音输入法输入汉字时脑海中的语言思维显然取决于所使用的拼音，对汉语拼音输入法而言，打字时脑中必然呈现的是普通话的语句，遣词造句自然遵循普通话的语法逻辑，长此以往则会丧失母语方言的思维定势，在高度数字化的现代更是如此，由此看来汉语拼音输入法的弊端显露无疑。</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s2.loli.net/2022/10/19/38Pm24bAeJoxZ1f.jpg" alt><br>本文介绍基于潮语拼音之输入法程序。<br><span id="more"></span></p>
+<h1 id="铺垫"><a href="#铺垫" class="headerlink" title="铺垫"></a>铺垫</h1><h2 id="1-汉语拼音输入法之弊"><a href="#1-汉语拼音输入法之弊" class="headerlink" title="1. 汉语拼音输入法之弊"></a>1. 汉语拼音输入法之弊</h2><p>若在电脑或手机上输入汉字，绝大多人会使用汉语拼音输入法，当然不乏也有一些人使用五笔输入法，在台湾香港等地则有注音输入法及仓颉输入法。对于以汉语方言为母语的输入法使用者而言，以拼音输入法输入汉字时脑海中的语言思维显然取决于所使用的拼音，对汉语拼音输入法而言，打字时脑中必然呈现的是普通话的语句，遣词造句自然遵循普通话的语法逻辑，长此以往则会丧失母语方言的思维定势，在高度数字化的现代更是如此，由此看来汉语拼音输入法的弊端显露无疑。</p>
 <h2 id="2-汉字输入法之选择"><a href="#2-汉字输入法之选择" class="headerlink" title="2. 汉字输入法之选择"></a>2. 汉字输入法之选择</h2><p>对于五笔亦或仓颉输入法，打字的基本原则是汉字本身，譬如五笔是依据汉字笔画，而仓颉则是按照汉字构成来输入汉字。汉语方言的文字除了极少数在上古时代遗留下来的地方古音查无本字（如潮汕话中便含一些古越人的语言），基本都有其对应的汉字来表示，因此对于以汉语方言为母语者，上述二种输入法是推荐使用的，因为这样能避免汉语拼音的思维定势影响母语思考，从而在长期的汉字输入中巩固自身母语思维，对本土文化作一种传承。</p>
 <p>但是，学习五笔或仓颉输入法所付出的时间成本其实难以估量。在中国的教育体制下，基本上所有接受义务教育的人都能掌握现代汉语拼音，因此对于汉语方言使用者而言，如果有一套拼音方案是与现代汉语拼音相近的，那么学习母语的拼音所付出的时间便可以大大减少。对潮汕话而言，广东省教育厅在1960年9月公布《潮州话拼音方案》，基本上能够将潮汕地区日常交流用语以拼音的形式表现出来，而且仅在汉语拼音的基础上增加 了三个声母 ng（黄 ng5）、gh（吴 ghou5）、bh（无 bho5），以及一个韵母如 ê（亿 êg8），再结合潮汕话自身的入声特征（-g）及八个声调，上手难度对潮汕话母语者十分友好，只需要稍加练习便能熟练掌握。<a target="_blank" rel="noopener" href="http://www.czyzd.com/data/chaopin" title="传承潮汕文化"><strong>点此学习潮州话拼音方案</strong></a>。</p>
 <h2 id="3-潮语拼音之应用"><a href="#3-潮语拼音之应用" class="headerlink" title="3. 潮语拼音之应用"></a>3. 潮语拼音之应用</h2><p>掌握了潮汕话拼音之后，以潮汕话书写汉字时若遇到不会写的字，则可通过潮语拼音查询对应本字。常用的查询本字的在线网站有<a target="_blank" rel="noopener" href="http://m.czyzd.com/" title="传承潮汕文化"><strong>在线潮州音字典</strong></a>、以及<a target="_blank" rel="noopener" href="https://www.mogher.com/" title="勿忘母语之根"><strong>潮州母语网</strong></a>，但所查本字未必准确。对于潮汕话正字考据的学界研究及争议，以后我会专门写一篇文章来简要介绍。回归正题，在论述了使用潮语拼音对以潮汕话为母语的汉语方言使用者之优势后，是否有一款包含潮语拼音的汉字输入法便成为最关键的问题。答案显而易见，由此引出本文的重点内容——</p>
