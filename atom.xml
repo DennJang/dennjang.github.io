@@ -6,7 +6,7 @@
   <link href="http://dennjang.github.io/atom.xml" rel="self"/>
   
   <link href="http://dennjang.github.io/"/>
-  <updated>2023-01-24T13:12:34.063Z</updated>
+  <updated>2023-01-29T14:18:48.860Z</updated>
   <id>http://dennjang.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C盘清理攻略</title>
+    <link href="http://dennjang.github.io/cleanC/"/>
+    <id>http://dennjang.github.io/cleanC/</id>
+    <published>2023-01-25T12:50:58.504Z</published>
+    <updated>2023-01-29T14:18:48.860Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s1.ax1x.com/2023/01/29/pSdGxDf.png" alt><br>呕心沥血清理了C盘，本文系方法总结。<br><span id="more"></span></p><hr><h1 id="1-windows磁盘清理"><a href="#1-windows磁盘清理" class="headerlink" title="1. windows磁盘清理"></a>1. windows磁盘清理</h1><p>在“此电脑”右键C盘，点击属性，点击磁盘清理。如下图所示，“要删除的文件”中所有选项皆可勾选，然后点击下方之“确定”进行清理。</p><p><img src="https://s1.ax1x.com/2023/01/26/pSNSWon.jpg" alt></p><p>此外，清理前还可点击“清理系统文件”，包含Windows系统更新及补丁缓存文件所占用的大量空间均可删除。</p><p>再者，点击上方栏之“其他选项”，找到“系统还原和卷影复制”，仍可直接清理以释放空间。</p><h1 id="2-系统设置"><a href="#2-系统设置" class="headerlink" title="2. 系统设置"></a>2. 系统设置</h1><p>在开始菜单栏左侧竖栏点击“设置”，在Windows设置中点击“系统”，在左侧竖栏中点击“存储”，此处可看到C盘之数据详情，依次点击清理之。</p><p><img src="https://s1.ax1x.com/2023/01/29/pSdlNy8.jpg" alt></p><p>点击“应用和功能”，卸载少用或无用而占空间之软件。</p><p>点击“临时文件”，扫描结束后直接点击删除，清理漏网之鱼。</p><p>点击最下面的“更改新内容的保存位置”，将位置修改至其他盘，从而减少C盘负担。</p><h1 id="3-可直接清理之文件夹"><a href="#3-可直接清理之文件夹" class="headerlink" title="3. 可直接清理之文件夹"></a>3. 可直接清理之文件夹</h1><p>在C:\Users\用户名\AppData下有三个程序缓存文件夹，分别叫“Local”、“LocalLow”及“Roaming”。</p><p><img src="https://s1.ax1x.com/2023/01/29/pSd1ets.jpg" alt></p><p>C:\Users\用户名\AppData\Local\Temp 是纯粹的应用程序缓存，直接删。</p><p>若安装了Adobe系列软件，则直接删：</p><p>C:\Users\用户名\AppData\Roaming\Adobe\Common\Media Cache</p><p>C:\Users\用户名\AppData\Roaming\Adobe\Common\Media Cache Files</p><p>若安装了腾讯相关软件，则直接删：</p><p>C:\Users\用户名\AppData\Roaming\Tencent</p><p>系统更新/补丁时候的缓存文件亦可直接删：</p><p>C:\Windows\SoftwareDistribution\Download</p><p>用户临时文件亦可直接删：</p><p>C:\Documents and Settings\用户名\Local Settings\temp</p><p>应用安装的临时文件亦可直接删：</p><p>C:\Windows\Temp</p><h1 id="4-文件转移"><a href="#4-文件转移" class="headerlink" title="4. 文件转移"></a>4. 文件转移</h1><p>Windows默认的下载和回收站之地址均在C盘，可将他们转移至别处。</p><p>在“下载”文件夹内右键点击“属性”，在弹出之窗口修改默认下载位置。</p><p>右键回收站，点击“属性”，在弹出之窗口修改回收站的位置 。</p><hr><blockquote><p>本文结束，感谢阅读。点击返回 <a href="https://dennjang.github.io/categories/然哥秘籍/"><strong>然哥秘籍</strong></a>，或<a href="https://dennjang.github.io/" title="然哥的精神故乡"><strong>首页</strong></a>。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2023/01/29/pSdGxDf.png&quot; alt&gt;&lt;br&gt;呕心沥血清理了C盘，本文系方法总结。&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="然哥秘籍" scheme="http://dennjang.github.io/categories/%E7%84%B6%E5%93%A5%E7%A7%98%E7%B1%8D/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>校园剪影</title>
